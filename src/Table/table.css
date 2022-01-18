@@ -1,0 +1,27 @@
+.tablesContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    line-height: 30px;
+    background-color: rgb(255, 232, 198);
+    border: 1px solid black;
+    border-spacing: 0;
+    margin: 1rem 0;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.5rem 0;
+    width: 10rem;
+}
+
+.betterOption {
+    background-color: green;
+}
